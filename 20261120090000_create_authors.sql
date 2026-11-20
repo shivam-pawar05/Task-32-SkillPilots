@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS authors (
+    author_id BIGSERIAL PRIMARY KEY,
+    author_name VARCHAR(150) NOT NULL
+);
